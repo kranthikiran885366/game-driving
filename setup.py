@@ -1,0 +1,33 @@
+from setuptools import setup, find_packages
+
+setup(
+    name="gesture_driving_game",
+    version="0.1.0",
+    packages=find_packages(where="src"),
+    package_dir={"": "src"},
+    install_requires=[
+        "opencv-python>=4.8.1.78",
+        "pygame>=2.5.2",
+        "numpy>=1.24.3",
+        "PyOpenGL>=3.1.7",
+        "PyOpenGL-accelerate>=3.1.7",
+        "mediapipe>=0.10.0",
+        "torch>=2.0.0",
+        "torchvision>=0.15.0",
+        "torchaudio>=2.0.0",
+        "tqdm>=4.66.1",
+        "scikit-learn>=1.3.0",
+        "matplotlib>=3.7.0",
+        "seaborn>=0.12.2",
+        "requests>=2.31.0",
+        "psutil>=5.9.5",
+        "pillow>=10.0.0",
+        "python-dotenv>=1.0.0",
+    ],
+    entry_points={
+        "console_scripts": [
+            "gesture-driving-game=src.core.main:main",
+        ],
+    },
+    python_requires=">=3.8",
+)

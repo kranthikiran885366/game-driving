@@ -1,0 +1,132 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.env
+.venv
+
+# IDE and Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.ropeproject
+.project
+.pydevproject
+.settings/
+.ropeproject/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# ML/DL/Data Science
+**/__pycache__/
+*.pth
+*.pth.*
+*.h5
+*.hdf5
+*.tflite
+*.pb
+*.onnx
+*.prototxt
+*.npy
+*.npz
+*.pkl
+*.joblib
+*.csv
+*.feather
+*.parquet
+*.db
+*.sqlite
+*.sqlite3
+
+# Training and Logs
+logs/
+runs/
+tensorboard/
+mlruns/
+wandb/
+checkpoints/
+*.log
+*.logs
+
+# Game Development
+# Keep config files but ignore other JSON files
+*.json
+!config/*.json
+!src/**/*.json
+
+# Ignore game assets by default (uncomment if needed)
+# assets/*
+# !assets/README.md
+
+# Ignore local data and models
+*.pth
+*.pt
+*.pkl
+*.pth.tar
+*.ckpt
+*.bin
+
+# Ignore local saves and caches
+.saves/
+.cache/
+.auto-save*
+*.sav
+*.save
+*.bak
+*.tmp
+*.swp
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific (keep these)
+!config/
+!config/*.json
+!src/
+!src/**/
+!tests/
+!docs/
+!assets/README.md
+!*.py
+!requirements*.txt
+!setup.py
+!setup.cfg
+!pyproject.toml
+!README.md
+!LICENSE

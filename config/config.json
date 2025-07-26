@@ -1,0 +1,36 @@
+{
+    "display": {
+        "width": 1280,
+        "height": 720,
+        "fullscreen": false,
+        "vsync": true
+    },
+    "audio": {
+        "master_volume": 0.7,
+        "music_volume": 0.5,
+        "sfx_volume": 0.8,
+        "mute": false
+    },
+    "controls": {
+        "steering_sensitivity": 1.0,
+        "acceleration_sensitivity": 1.0,
+        "brake_sensitivity": 1.0
+    },
+    "gameplay": {
+        "difficulty": "normal",
+        "ai_difficulty": "medium",
+        "traffic_density": "medium",
+        "weather": "clear"
+    },
+    "graphics": {
+        "quality": "medium",
+        "shadows": true,
+        "reflections": true,
+        "particles": true
+    },
+    "debug": {
+        "show_fps": true,
+        "show_debug_info": false,
+        "log_level": "info"
+    }
+} 
