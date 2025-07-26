@@ -1,0 +1,18 @@
+[build]
+  publish = "dist"
+  command = "python run_game.py"
+
+[build.environment]
+  PYTHON_VERSION = "3.9"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[dev]
+  command = "python run_game.py"
+  port = 8888
+  targetPort = 8888
+  publish = "dist"
+  autoLaunch = true 
